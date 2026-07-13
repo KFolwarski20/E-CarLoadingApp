@@ -9,11 +9,11 @@ App for finding the best time to charge an EV based on clean energy mix.
 ## Run project
 
 ### Backend
-cd backend
-npm install
-npm run dev
+- cd backend
+- npm install
+- npm run dev
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
