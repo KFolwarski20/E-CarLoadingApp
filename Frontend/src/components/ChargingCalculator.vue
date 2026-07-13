@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 const API_URL =
-  "http://localhost:3000/api";
+  "https://e-carloadingapp.onrender.com/api";
 
 
 const hours = ref(1);

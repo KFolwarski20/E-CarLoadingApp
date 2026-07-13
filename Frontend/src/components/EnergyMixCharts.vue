@@ -4,7 +4,7 @@ import axios from "axios";
 import VueApexCharts from "vue3-apexcharts";
 
 const API_URL =
-  "http://localhost:3000/api";
+  "https://e-carloadingapp.onrender.com/api";
 
 const days = ref([]);
 const loading = ref(true);
