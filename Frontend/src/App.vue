@@ -1,6 +1,6 @@
 <script setup>
-import EnergyMixCharts from "./components/energyMixCharts.vue"
-import ChargingCalculator from "./components/chargingCalculator.vue"
+import EnergyMixCharts from "./components/EnergyMixCharts.vue"
+import ChargingCalculator from "./components/ChargingCalculator.vue"
 </script>
 
 <template>
