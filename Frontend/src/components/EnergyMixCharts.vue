@@ -4,7 +4,7 @@ import axios from "axios";
 import VueApexCharts from "vue3-apexcharts";
 
 
-const API_URL = import.meta.env.API_URL;
+const API_URL = import.meta.env.VITE_API_URL;
 
 const days = ref([]);
 const loading = ref(true);
