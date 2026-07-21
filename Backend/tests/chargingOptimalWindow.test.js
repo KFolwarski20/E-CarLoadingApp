@@ -83,8 +83,8 @@ describe("POST /api/charging/optimal-window", () => {
             data: {
                 data: [
                     {
-                        from: "2026-07-14T10:00:00+01:00",
-                        to: "2026-07-14T10:30:00+01:00",
+                        from: "2026-07-22T10:00:00+01:00",
+                        to: "2026-07-22T10:30:00+01:00",
                         generationmix:[
                             {
                                 fuel:"wind",
@@ -97,8 +97,8 @@ describe("POST /api/charging/optimal-window", () => {
                         ]
                     },
                     {
-                        from:"2026-07-14T10:30:00+01:00",
-                        to:"2026-07-14T11:00:00+01:00",
+                        from:"2026-07-22T10:30:00+01:00",
+                        to:"2026-07-22T11:00:00+01:00",
                         generationmix:[
                             {
                                 fuel:"wind",

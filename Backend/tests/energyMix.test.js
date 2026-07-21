@@ -19,7 +19,7 @@ describe("GET /api/energy/mix",()=>{
         data:{
         data:[
         {
-        from:"2026-07-13T00:00:00+01:00",
+        from:"2026-07-22T00:00:00+01:00",
         generationmix:[
         {
         fuel:"wind",
@@ -44,7 +44,7 @@ describe("GET /api/energy/mix",()=>{
     .toBe(200);
 
     expect(response.body)
-    .toHaveProperty("2026-07-13");
+    .toHaveProperty("2026-07-22");
 
     });
 });

@@ -11,8 +11,8 @@ App for finding the best time to charge an EV based on clean energy mix.
 
 ### Backend
 - cd ./Backend
-- docker build -t e-carLoadingApp
-- docker run -p 3000:3000 e-carLoadingApp
+- docker build -t e-car_loading_app .
+- docker run -p 3000:3000 e-car_loading_app
 
 Backend runs on http://localhost:3000
 
